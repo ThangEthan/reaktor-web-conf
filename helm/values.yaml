@@ -4,8 +4,9 @@ image:
   pullPolicy: IfNotPresent
 ingress:
   host: reaktor-web.192.168.49.2.nip.io
+  path: /
 env:
-  API_URL: http://reaktor-api.192.168.49.2.nip.io
+  API_URL: http://aeb8b626b54e042208a30db17d483073-f22a1c54c3a4d00b.elb.eu-west-1.amazonaws.com/api
 service:
   name: reaktor
   type: ClusterIP
