@@ -1,5 +1,5 @@
 image:
-  repository: thangvu201098/reaktor
+  repository: thangvu201098/reaktor-web
   tag: 0.0.4
   pullPolicy: IfNotPresent
 ingress:
