@@ -1,6 +1,6 @@
 image:
-  repository: thangvu201098/reaktor-web
-  tag: latest
+  repository: thangvu201098/reaktor
+  tag: 0.0.4
   pullPolicy: IfNotPresent
 ingress:
   path: /
