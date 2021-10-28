@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+spec:
+  selector:
+    matchLabels:
+      app: web
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: reaktor-web
+        image: thangvu201098/reaktor-web:latest
+        env:
+          - name: API_URL
+            value: reaktor-api.vvthang.com
