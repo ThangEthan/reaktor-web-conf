@@ -18,3 +18,4 @@ spec:
             name: reaktor-web
             port:
               number: 80
+        host: reaktor-web.vvthang.com
